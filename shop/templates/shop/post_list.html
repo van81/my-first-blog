@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Django Girls Shop</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="">Django Girls Shop</a></h1>
+        </div>
+        
+        {% for shop in shops %}
+          <div>
+            <p>published: {{ post.published_date }}</p>
+              <h2><a href="">{{ post.title }}</a></h2>
+              <p>{{ post.text }}</p>
+          </div>
+        {% endfor %}
+
+    </body>
+</html>
