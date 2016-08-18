@@ -1,0 +1,1 @@
+@p manage.py makemigrations %1 --empty

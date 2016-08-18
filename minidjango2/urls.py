@@ -1,3 +1,5 @@
+from django.views.generic.base import RedirectView
+
 """minidjango2 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
